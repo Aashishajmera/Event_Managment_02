@@ -1,11 +1,11 @@
-import './App.css';
 import { Route, Routes } from "react-router-dom";
-import SignUp from './components/loginComponent/Signup';
-import SignIn from './components/loginComponent/Signin';
-import HomePage from './components/homeComponent/HomePageComponent';
-import HeaderComponent from './components/headerComponent/HeaderComponent';
-import FooterComponent from './components/footerComponent/FooterComponent';
+import './App.css';
 import AllEventList from './components/EventListComponent/AllEventList';
+import FooterComponent from './components/footerComponent/FooterComponent';
+import HeaderComponent from './components/headerComponent/HeaderComponent';
+import HomePage from './components/homeComponent/HomePageComponent';
+import SignIn from './components/loginComponent/Signin';
+import SignUp from './components/loginComponent/Signup';
 import OurEventComponent from './components/OurEventComponent/OurEvent';
 
 function App() {
